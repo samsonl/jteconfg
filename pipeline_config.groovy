@@ -11,8 +11,15 @@ application_environments {
 }
 
 keywords{
-    globalx = "GLOBAL"
+    master  =  /^[Mm]aster$/
+    develop =  /^[Dd]evelop(ment|er|)$/
+    hotfix  =  /^[Hh]ot[Ff]ix-/
+    release =  /^[Rr]elease-(\d+.)*\d$/
 }
+
+//keywords{
+//    globalx = "GLOBAL"
+//}
 
 libraries{
   merge = true 
