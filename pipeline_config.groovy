@@ -1,7 +1,7 @@
 allow_scm_jenkinsfile = false
 skip_default_checkout = true
-//merge = true 
-//override = true 
+merge = true 
+override = true 
 
 pipeline_template = "Jenkinsfile"
 
