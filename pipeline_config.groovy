@@ -22,28 +22,19 @@ keywords{
 }
 */
 
-keywords{
-    globalx = "GLOBAL"
+keywords {
+    version = "V1.00"
 }
 
 libraries{
   merge = true 
-  sonarqube
 }
 
 template_methods{
-    unit_test
-    static_code_analysis
-    build
-    xxx
 }
 
 stages{
     combo_stage {
-        build
     }
 }
 
-keywords {
-    version = "V1.00"
-}
