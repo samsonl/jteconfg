@@ -11,7 +11,7 @@ application_environments {
 }
 
 keywords{
-    GLOBALX  = "GLOBAL"
+    globalx = "GLOBAL"
 }
 
 libraries{
