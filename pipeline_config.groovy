@@ -5,21 +5,23 @@ pipeline_template = "Jenkinsfile"
 application_environments {
   global {
      A = "aval"
-     B = env.buildParam ?: "default if not set"
+     B = "B" ?: "default if not set"
   }
   
 }
 
+/*
 keywords{
     master  =  /^[Mm]aster$/
     develop =  /^[Dd]evelop(ment|er|)$/
     hotfix  =  /^[Hh]ot[Ff]ix-/
     release =  /^[Rr]elease-(\d+.)*\d$/
 }
+*/
 
-//keywords{
-//    globalx = "GLOBAL"
-//}
+keywords{
+    globalx = "GLOBAL"
+}
 
 libraries{
   merge = true 
