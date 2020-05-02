@@ -10,6 +10,9 @@ application_environments {
   
 }
 
+keywords{
+    GLOBALX  = "GLOBAL"
+      
 libraries{
   merge = true 
   sonarqube
