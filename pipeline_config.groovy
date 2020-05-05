@@ -9,7 +9,7 @@ application_environments {
   global {
      A = "aval"
      B = "B" ?: "default if not set"
-     C = { p -> echo ">>> ${p}" }
+     //C = { p -> echo ">>> ${p}" }
   }
   
 }
