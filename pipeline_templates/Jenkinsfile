@@ -4,11 +4,13 @@ VAR_2 = "VAR2"
 public static String STAGE_ONE = "stage one"
 public final  String STAGE_TWO = "stage two"
 
-enum Stages {
+package x.y
+public enum Stages {
   STAGE_ONE,
   STAGE_TWO
 }
 
+package x.z
 public class Stages2 {
   public static String STAGE_ONE = "stage one"
   public final  String STAGE_TWO = "stage two"
