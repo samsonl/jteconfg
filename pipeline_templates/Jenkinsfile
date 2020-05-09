@@ -4,7 +4,7 @@ VAR_2 = "VAR2"
 public static String STAGE_ONE = "stage one"
 public final  String STAGE_TWO = "stage two"
 
-emun Stages {
+enum Stages {
   STAGE_ONE,
   STAGE_TWO
 }
