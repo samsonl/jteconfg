@@ -9,7 +9,7 @@ enum Stages {
   STAGE_TWO
 }
 
-class Stages2 {
+public class Stages2 {
   public static String STAGE_ONE = "stage one"
   public final  String STAGE_TWO = "stage two"
 }
