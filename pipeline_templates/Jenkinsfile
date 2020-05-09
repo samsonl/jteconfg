@@ -1,6 +1,6 @@
 def VAR_1 = "VAR1"
 VAR_2 = "VAR2"
 
-public static void STAGE_ONE = "stage one"
+public static String STAGE_ONE = "stage one"
 
 task()
