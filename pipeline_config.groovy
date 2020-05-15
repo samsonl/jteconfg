@@ -10,7 +10,18 @@ application_environments {
      A = "aval"
      B = "B" ?: "default if not set"
      //C = { p -> echo ">>> ${p}" }
+  
+    sets {
+      setA {
+        name = "A"
+      }
+      setB {
+        name = "B"
+      }
+    }
   }
+  
+  
   
 }
 
