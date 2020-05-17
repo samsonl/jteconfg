@@ -7,7 +7,7 @@ pipeline_template = "Jenkinsfile"
 
 application_environments {
   global {
-     A = "aval"
+     A = "jteconfg A"
      B = "B" ?: "default if not set"
      //C = { p -> echo ">>> ${p}" }
   
