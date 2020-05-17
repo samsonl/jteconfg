@@ -46,6 +46,10 @@ keywords {
 
 libraries{
   merge = true 
+  libsimple {
+      A = "jteconfg A from lib"
+   }
+ 
 }
 
 template_methods{
