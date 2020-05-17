@@ -8,7 +8,9 @@ pipeline_template = "Jenkinsfile"
 application_environments {
   global {
      A = "jteconfg A"
-     B = "B" ?: "default if not set"
+     B = "jteconfg B"
+     C = "jteconfg C"
+     //B = "B" ?: "default if not set"
      //C = { p -> echo ">>> ${p}" }
   
     sets {
