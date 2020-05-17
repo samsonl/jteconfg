@@ -9,7 +9,9 @@ application_environments {
   global {
      A = "jteconfg A"
      B = "jteconfg B"
-     C = "jteconfg C"
+     C {
+      C1="jteconfg C"
+     }
      //B = "B" ?: "default if not set"
      //C = { p -> echo ">>> ${p}" }
   
