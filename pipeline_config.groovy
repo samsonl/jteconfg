@@ -7,6 +7,7 @@ pipeline_template = "Jenkinsfile"
 
 application_environments {
   global {
+     merge = true
      A = "jteconfg A"
      B = "jteconfg B"
      C {
