@@ -7,11 +7,10 @@ pipeline_template = "Jenkinsfile"
 
 application_environments {
   global {
-     override = true 
-
      A = "jteconfg A"
      B = "jteconfg B"
      C {
+       override = true
       C1="jteconfg C"
      }
      //B = "B" ?: "default if not set"
