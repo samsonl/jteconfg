@@ -47,6 +47,7 @@ keywords {
 libraries{
   merge = true 
   libsimple {
+      override = true
       A = "jteconfg A from lib"
    }
  
