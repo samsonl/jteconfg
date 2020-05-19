@@ -50,7 +50,10 @@ libraries{
       override = true
       A = "jteconfg A from lib"
    }
- 
+  libA {
+     C="config for liba"
+  }
+  
 }
 
 template_methods{
