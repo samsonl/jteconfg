@@ -3,7 +3,7 @@ skip_default_checkout = true
 merge = true 
 //override = true 
 
-pipeline_template = "Jenkinsfile"
+pipeline_template = "Jenkinsfile2"
 
 application_environments {
   global {
