@@ -53,7 +53,7 @@ libraries{
   libA {
      C="config for liba"
   }
-  
+  helper
 }
 
 template_methods{
